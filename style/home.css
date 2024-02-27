@@ -114,3 +114,9 @@ margin-top: 30px;
     margin-right: 50px;
     font-family: 'Times New Roman', Times, serif;
   }
+  ul li{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
