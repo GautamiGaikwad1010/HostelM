@@ -5,3 +5,12 @@
 .col-md-4{
     height:200px;
 }
+.opera{
+    background-color:orange;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
