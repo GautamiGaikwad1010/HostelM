@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f1f41c;
+}
+/* sign up container size */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 250px;
+    height: 500px;
+    padding: 20px;
+    background-color: #ebb7d35e; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+/* sign up name center */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+/* sign up  */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #111010;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+
+/* sign button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+} 
+/* sign up button hover effect */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+} 
+
+/* background image */
+.background-image-container{
+    background-image: url('./../images/sign\ up\ page\ logo.jpg');
+    background-size: cover; 
+    padding-top: 10px;
+    border-radius: 1px 2px;
+    height: 1200px;
+    width: 1400px;
+}

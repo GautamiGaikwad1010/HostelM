@@ -1,0 +1,57 @@
+/* Add custom styles here */
+body {
+    font-family: Arial, sans-serif;
+  }
+  /*card medium  */
+.card {
+    margin-top: 400px;
+    justify-content: center;
+} 
+.form-group{
+    margin-bottom: 10px;
+} 
+/*  first map  */
+.map{
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-top: 165px;
+    margin-left: 10px;
+} 
+/* effect */
+/* .map:hover{
+  transform: scale(1.3);
+} */
+/* second map */
+.map1{
+   margin-left: 10px;
+   margin-top: 50px;
+}
+/* .map1:hover{
+   transform: scale(1.3); 
+
+} */
+  /* background image */
+  .background-image-container{
+    background-image: url('./../images/hostel.jpg');
+    background-size: cover; 
+    border-radius: 1px 2px;
+    height: 1200px;
+    width: 1400px;
+  }
+  /* card body colour */
+  .card-body{
+    margin-bottom: 8px;
+    background-color: rgba(236, 236, 239, 0.034);  
+    height: 410px;
+  }
+  /* form btn */
+  .btn{
+    margin-bottom: 9px;
+    margin-left: 140px;
+    margin-right: 140px;
+    /* height: 100px; */
+  } 
+  .card1{
+    margin-left: 170px;
+    /* background-color: white; */
+  }
