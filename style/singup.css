@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f1f41c;
-    overflow-x: hidden;
+
 }
 /* sign up container size */
 .container {
     max-width: 400px;
     margin: 50px auto;
-    margin-top: 250px;
+    margin-top: 320px;
     height: 500px;
     padding: 20px;
     background-color:transparent; 
@@ -17,6 +17,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
+/* nav-bar   */
+.navbar{
+    background: #000328;
+  }
 /* sign up name center */
 h2 {
     text-align: center;
@@ -52,12 +56,23 @@ input[type="submit"]:hover {
 } 
 
 /* background image */
+
+
 .background-image-container{
-   background-image: url(./../images/space-hostel-tokyo.jpg);
-    background-size: cover; 
-    padding-top: 10px;
-    border-radius: 1px 2px;
-    height: 900px;
-    width: 100%;
-}
+    background-image: url(./../images/space-hostel-tokyo.jpg);
+     background-size: cover; 
+     padding-top: 10px;
+     border-radius: 1px 2px;
+     height: 900px;
+     width: 100%;
+ }
+
+
+
+
+
+
+
+
+
 
