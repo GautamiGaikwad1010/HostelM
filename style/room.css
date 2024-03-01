@@ -1,0 +1,99 @@
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+section, footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+    .footer{
+        background:#000328;
+        padding:30px 0px;
+        font-family: 'Play', sans-serif;
+        text-align:center;
+        }
+        
+        .footer .row{
+        width:100%;
+        margin:1% 0%;
+        padding:0.6% 0%;
+        color:gray;
+        font-size:0.8em;
+        }
+        
+        .footer .row a{
+        text-decoration:none;
+        color:gray;
+        transition:0.5s;
+        }
+        
+        .footer .row a:hover{
+        color:#fff;
+        }
+        
+        .footer .row ul{
+        width:100%;
+        }
+        
+        .footer .row ul li{
+        display:inline-block;
+        margin:0px 30px;
+        }
+        
+        .footer .row a i{
+        font-size:2em;
+        margin:0% 1%;
+        }
+        
+        @media (max-width:720px){
+        .footer{
+        text-align:left;
+        padding:5%;
+        }
+        .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+        .footer .row a i{
+        margin:0% 3%;
+        }
+        .icon{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        }
+        .navbar{
+            background: #000328;
+        
+            
+         }
+         .nav-link:hover{
+            cursor: pointer;
+           transform: scale(1.1);
+         }
+         
+        .h{
+            text-align: center;
+        }
+         .nav-link{
+        font-size: 20px;
+         }
+        
+         img {
+            max-width: 100%;
+            height: auto;
+        }

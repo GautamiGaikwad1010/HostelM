@@ -6,7 +6,7 @@
     height:200px;
 }
 .opera{
-    background-color:orange;
+    color:orange;
 }
 .card{
     transition: 0.3s;
@@ -14,3 +14,20 @@
 .card:hover{
     transform: scale(1.1);
 }
+
+.navbar{
+    background: #000328;
+
+    
+ }
+ .nav-link:hover{
+    cursor: pointer;
+   transform: scale(1.1);
+ }
+ 
+.h{
+    text-align: center;
+}
+ .nav-link{
+font-size: 20px;
+ }
