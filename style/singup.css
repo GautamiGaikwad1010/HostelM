@@ -3,25 +3,31 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f1f41c;
-    /* overflow-x: hidden;  
-    overflow-y: hidden;   */
+    overflow-x: hidden;  
+    overflow-y: hidden; 
+    
 }
 /* sign up container size */
 .container {
     max-width: 400px;
     margin: 50px auto;
-    margin-top: 250px;
+    margin-top: 320px;
     height: 500px;
     padding: 20px;
-    background-color: #ebccb75e; 
+    background-color:transparent; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
+/* nav-bar   */
+.navbar{
+    background: #000328;
+  }
 /* sign up name center */
 h2 {
     text-align: center;
     margin-bottom: 30px;
+    color: #fff;
 } 
 
 /* sign up  */
@@ -53,10 +59,10 @@ input[type="submit"]:hover {
 
 /* background image */
 .background-image-container{
-    background-image: url('./../images/hostels.webp');
+    background-image: url('./../images/space-hostel-tokyo.jpg');
     background-size: cover; 
     padding-top: 10px;
     border-radius: 1px 2px;
-    height: 1200px;
-    width: 1400px;
+    height: 900px;
+    width: 100%;
 }
