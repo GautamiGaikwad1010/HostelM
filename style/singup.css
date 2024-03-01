@@ -3,17 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f1f41c;
-<<<<<<< HEAD
-   
-=======
-<<<<<<< HEAD
-    overflow-x: hidden;  
-    overflow-y: hidden; 
-    
-=======
-    overflow-x: hidden;
->>>>>>> 5f9ff28cf73a8e84cb4bbfd1aa14305772977b9f
->>>>>>> 81b42e2a9a2ac2794ea25960619544c8d532a97a
+
 }
 /* sign up container size */
 .container {
@@ -22,7 +12,7 @@ body {
     margin-top: 320px;
     height: 500px;
     padding: 20px;
-    background-color:; 
+    background-color:transparent; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
@@ -66,16 +56,23 @@ input[type="submit"]:hover {
 } 
 
 /* background image */
+
+
 .background-image-container{
-<<<<<<< HEAD
-    background-image: url('./../images/space-hostel-tokyo.jpg');
-=======
-   background-image: url(./../images/space-hostel-tokyo.jpg);
->>>>>>> 5f9ff28cf73a8e84cb4bbfd1aa14305772977b9f
-    background-size: cover; 
-    padding-top: 10px;
-    border-radius: 1px 2px;
-    height: 900px;
-    width: 100%;
-}
+    background-image: url(./../images/space-hostel-tokyo.jpg);
+     background-size: cover; 
+     padding-top: 10px;
+     border-radius: 1px 2px;
+     height: 900px;
+     width: 100%;
+ }
+
+
+
+
+
+
+
+
+
 
