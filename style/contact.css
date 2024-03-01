@@ -10,6 +10,11 @@ body {
 .form-group{
     margin-bottom: 10px;
 } 
+/* nav-bar  */
+.navbar{
+  background: #000328;
+}
+    
 /*  first map  */
 .map{
     justify-content: space-evenly;
@@ -32,7 +37,7 @@ body {
 } */
   /* background image */
   .background-image-container{
-    background-image: url('./../images/hostel.jpg');
+  /* background-image: url('./../images/hostel1.jpeg');   */
     background-size: cover; 
     border-radius: 1px 2px;
     height: 1200px;
@@ -55,3 +60,118 @@ body {
     margin-left: 170px;
     /* background-color: white; */
   }
+  footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+ .h2{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .main-info{
+margin-top: 30px;
+  }
+  .intro-p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  ul li{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .feature{
+    margin-bottom: 40px;
+  }
+  body{
+    margin:0;
+    overflow-x:hidden;
+    
+    }
+    
+    .footer{
+    background:#000328;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    .icon{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    }
+    
+.card {
+    transition: 0.5s;
+    display: flex;
+    justify-content:space-around;
+/* color: red; */
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+   
+}
+.card-img-top1{
+    height: 340px;
+    width: 900px;
+}
+.card-img-top2{
+    height: 340px;
+    width: 900px;
+}
+
