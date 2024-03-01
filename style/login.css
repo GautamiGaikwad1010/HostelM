@@ -1,5 +1,5 @@
 body {
-  background-image:url(https://pix10.agoda.net/hotelImages/127/1270426/1270426_16101917120047934359.jpg?s=1024x768);
+  background-image:url('https://pix10.agoda.net/hotelImages/127/1270426/1270426_16101917120047934359.jpg?s=1024x768');
   height: 60vh;
   background-size: cover;
   background-position: center;
