@@ -3,11 +3,16 @@ body {
   height: 60vh;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
 }
 .login-page{
   width: 500px;
   height: 400px;
   padding: 20% 0 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -31,7 +36,7 @@ margin-top: 310px;
 .form input{
   font-family: "Roboto", "sans-serif";
   outline: 1;
-  background: #f2f2f2;
+  background: #efebeb;
   width: 100%;
     border: 0;
   margin: 0 0 15px;
