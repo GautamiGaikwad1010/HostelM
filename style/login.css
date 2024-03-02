@@ -52,8 +52,8 @@ margin-top: 310px;
   text-transform: uppercase;
   outline: 0;
   background: #275cda;
-  margin-bottom: 10px;
-  margin-left: 12px;
+  margin-bottom: 12px;
+  
   width: 100%;
   border: 0;
   padding: 15px;
@@ -65,7 +65,7 @@ margin-top: 310px;
 }
 
 .form button:hover,.form button:active{
-  background-color: #43A047;
+  background-color: #3f22d1;
 }
 
 .form message{
