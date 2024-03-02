@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f1f41c;
+    /* overflow-x: hidden; */
+     /* overflow-y: hidden;  */
 
 }
 /* sign up container size */
@@ -66,13 +68,3 @@ input[type="submit"]:hover {
      height: 900px;
      width: 100%;
  }
-
-
-
-
-
-
-
-
-
-

@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
   }
-  /*card medium  */
+/*card medium  */
 .card {
     margin-top: 400px;
     justify-content: center;
@@ -22,149 +22,127 @@ body {
     margin-top: 165px;
     margin-left: 10px;
 } 
-/* effect */
-/* .map:hover{
-  transform: scale(1.3);
-} */
-/* second map */
 .map1{
    margin-left: 10px;
    margin-top: 50px;
 }
-/* .map1:hover{
-   transform: scale(1.3); 
-
-} */
   /* background image */
   .background-image-container{
-  /* background-image: url('./../images/hostel1.jpeg');   */
-    background-size: cover; 
-    border-radius: 1px 2px;
-    height: 1200px;
-    width: 1400px;
-  }
+  background-image: url('./../images/hostel2.jpg');  
+  background-size: cover; 
+  border-radius: 1px 2px;
+  height: 1200px;
+  width: 1400px;
+}
   /* card body colour */
   .card-body{
-    margin-bottom: 8px;
-    background-color: rgba(236, 236, 239, 0.034);  
-    height: 410px;
+    margin-bottom: 0x;
+    color: rgba(26, 26, 192, 0.034); 
+    background-color: rgba(255, 123, 0, 0.247);
+    height: 420px;
   }
   /* form btn */
   .btn{
-    margin-bottom: 9px;
+    margin-bottom: 36px;
     margin-left: 140px;
     margin-right: 140px;
     /* height: 100px; */
   } 
   .card1{
     margin-left: 170px;
-    /* background-color: white; */
   }
+  /* footer */
   footer p {
     padding: 40px 0;
     text-align: center;
 }
-
 footer img {
     width: 44px;
 }
-
- .h2{
-    margin-top: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .main-info{
+.h2{
+margin-top: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-info{
 margin-top: 30px;
   }
   .intro-p{
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Times New Roman', Times, serif;
-  }
-  ul li{
+}
+ul li{
     text-align: center;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-
-  }
-  .feature{
+}
+.feature{
     margin-bottom: 40px;
-  }
-  body{
+}
+body{
     margin:0;
     overflow-x:hidden;
+}
     
-    }
-    
-    .footer{
+.footer{
     background:#000328;
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
-    }
-    
-    .footer .row{
+}
+.footer .row{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
     color:gray;
     font-size:0.8em;
     }
-    
-    .footer .row a{
+.footer .row a{
     text-decoration:none;
     color:gray;
     transition:0.5s;
-    }
-    
-    .footer .row a:hover{
-    color:#fff;
-    }
-    
-    .footer .row ul{
+}
+.footer .row a:hover{
+  color:#fff;
+}
+.footer .row ul{
     width:100%;
-    }
+}
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
     
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-    
-    @media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-    }
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-    .footer .row a i{
-    margin:0% 3%;
-    }
-    .icon{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    }
-    
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+.icon{
+display: flex;
+flex-wrap: wrap;
+}
+}
 .card {
     transition: 0.5s;
     display: flex;
     justify-content:space-around;
-/* color: red; */
 }
 .card:hover {
     cursor: pointer;
     transform: scale(1.1);
-   
 }
 .card-img-top1{
     height: 340px;
@@ -173,5 +151,5 @@ margin-top: 30px;
 .card-img-top2{
     height: 340px;
     width: 900px;
-}
+} 
 
