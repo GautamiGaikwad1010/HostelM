@@ -25,13 +25,13 @@ body {
 .form{
   
  position: relative;
-  z-index: 1;
-  background:transparent;
-  max-width: 360px;
+z-index: 1;
+background:transparent;
+max-width: 360px;
 margin-left: 550px;
 margin-top: 310px;
-  padding: 45px;
-  text-align: center;
+padding: 45px;
+text-align: center;
 }
 
 .form input{

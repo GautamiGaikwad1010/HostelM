@@ -2,20 +2,20 @@
 body {
     font-family: Arial, sans-serif;
   }
-/*card medium  */
-.card {
+/* card medium  \ */
+ .card {
     margin-top: 400px;
     justify-content: center;
-} 
+}  
 .form-group{
     margin-bottom: 10px;
-} 
+}  
 /* nav-bar  */
 .navbar{
   background: #000328;
 }
     
-/*  first map  */
+/* first map */
 .map{
     justify-content: space-evenly;
     margin-right: 10px;
@@ -26,32 +26,42 @@ body {
    margin-left: 10px;
    margin-top: 50px;
 }
-  /* background image */
+
+.map-container{
+  text-align: center;
+  height: 500px;
+  width: 400px;
+}
+/* .map-container:hover{
+  transition: width 1s, height 2s;
+} */
+/* background image */
   .background-image-container{
-  background-image: url('./../images/hostel2.jpg');  
+  background-image:linear-gradient(rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.8)),  url(./../images/hostel2.jpg);  
+  opacity: 1;
   background-size: cover; 
   border-radius: 1px 2px;
   height: 1200px;
   width: 1400px;
 }
-  /* card body colour */
+/* card body colour */
   .card-body{
-    margin-bottom: 0x;
-    color: rgba(26, 26, 192, 0.034); 
-    background-color: rgba(255, 123, 0, 0.247);
-    height: 420px;
+    opacity: 1;
+    
+  
+    /* background-color: transparent; */
+    height: 440px;
+    padding: 40px;
   }
-  /* form btn */
+/* form btn */
   .btn{
-    margin-bottom: 36px;
-    margin-left: 140px;
-    margin-right: 140px;
-    /* height: 100px; */
+    
+   margin: 10px 35%;
   } 
-  .card1{
+.card1{
     margin-left: 170px;
-  }
-  /* footer */
+  } 
+/* footer */
   footer p {
     padding: 40px 0;
     text-align: center;
@@ -83,7 +93,6 @@ body{
     margin:0;
     overflow-x:hidden;
 }
-    
 .footer{
     background:#000328;
     padding:30px 0px;
@@ -135,21 +144,12 @@ display: flex;
 flex-wrap: wrap;
 }
 }
-.card {
+/* .card {
     transition: 0.5s;
     display: flex;
     justify-content:space-around;
-}
-.card:hover {
+} */
+ .card:hover {
     cursor: pointer;
     transform: scale(1.1);
-}
-.card-img-top1{
-    height: 340px;
-    width: 900px;
-}
-.card-img-top2{
-    height: 340px;
-    width: 900px;
 } 
-
