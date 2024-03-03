@@ -1,5 +1,4 @@
-
- /* body css   */
+/* body css   */
  body {
   font-family: Arial, sans-serif;
   background-color: #f5f1f41c;
@@ -11,7 +10,7 @@
   /* margin-top: 320px; */
   height: 500px;
   padding: 20px;
-  /* background-color:rgba(165, 42, 42, 0.406);  */
+  /*background-color:rgba(165, 42, 42, 0.406);  */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
@@ -159,6 +158,34 @@ display: flex;
 flex-wrap: wrap;
 }
 }
+
+
+
+.card {
+  transition: 0.5s;
+  display: flex;
+  justify-content:space-around;
+/* color: red; */
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+ 
+}
+.card-img-top1{
+  height: 340px;
+  width: 900px;
+}
+.card-img-top2{
+  height: 340px;
+  width: 900px;
+}
+.font-change{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+
 /* nav bar css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
