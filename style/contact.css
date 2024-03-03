@@ -1,25 +1,65 @@
-/* Add custom styles here */
-body{
-  font-family: 'Poppins', sans-serif;
+
+ /* body css   */
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f1f41c;
 }
-/* card medium  \ */
-.card {
-    margin-top: 400px;
-    justify-content: center;
-}  
-.form-group{
-    margin-bottom: 10px;
-}   
-/* nav-bar  */
-.navbar{
-  background: #000328;
+/* sign up container size */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  /* margin-top: 320px; */
+  height: 500px;
+  padding: 20px;
+  /* background-color:rgba(165, 42, 42, 0.406);  */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 }
-    
+.form-inputs {
+   background-color:transparent;
+   border-radius: medium;
+   color: white; 
+} 
+/* sign up name center */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff; 
+} 
+
+/* sign up  */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #111010;
+  border-radius: 5px;
+  box-sizing: border-box;
+} 
+
+/* sign button */
+input[type="submit"] {
+  width: 50%;
+  margin-left: 290px;
+  background-color: transparent;
+  padding: 10px;
+  border: 3px solid rgb(226, 215, 215);
+  border-style:groove;
+  border-radius: 10px 10px;
+  cursor: pointer;
+} 
+/* sign up button hover effect */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+} 
 /* first map */
 .map{
     justify-content: space-evenly;
     margin-right: 10px;
-    margin-top: 165px;
+    margin-top: 100px;
     margin-left: 10px;
 } 
 .map1{
@@ -38,31 +78,11 @@ body{
   opacity: 1;
   background-size: cover; 
   border-radius: 1px 2px;
-  height: 1200px;
+  height: 1200px; 
   width: 1400px;
 }
-/* card body colour */
-  .card-body{
-    opacity: 1;
-    height: 440px;
-    padding: 40px;
-  }
-  .card{
-    /* background-color: transparent; */
-  }
-  .card:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}  
-/* form btn */
-.btn{
-  margin: 10px 35%;
-  }  */
-.card1{
-    margin-left: 170px;
-  } 
-/* footer */
-  footer p {
+/* footer css */
+footer p {
     padding: 40px 0;
     text-align: center;
 }
@@ -139,11 +159,6 @@ display: flex;
 flex-wrap: wrap;
 }
 }
-/* .card:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}  
- */
 /* nav bar css */
  body{
   min-height: 100vh;
@@ -422,4 +437,22 @@ font-size: 20px;
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
