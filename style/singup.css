@@ -21,12 +21,9 @@ body {
     
 }
 
-.form-input {
-    /* background-color:transparent; */
-    
-
-
-}
+/* .form-input {
+     background-color:transparent;
+} */
 /* nav-bar   */
 .navbar{
     background: #000328;
@@ -34,7 +31,7 @@ body {
 /* sign up name center */
 h2 {
     text-align: center;
-    margin-bottom: 30px;s
+    margin-bottom: 30px;
     color: #fff;
 } 
 
