@@ -5,170 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./../style/contact.css">
-
-     <!-- bostrap link -->
+    <!-- bostrap link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-
- <!--navbar-->
- <nav class="navbar navbar-expand-lg position-sticky top-0 end-0 z-3">
-  <div class="container-fluid">
-    <img src="./../images/logo1.jpg"  height="90px" width="90px">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item p-4">
-          <a class="nav-link active ms-4 fs-3 text-white" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item p-4">
-          <a class="nav-link ms-4 fs-3 text-white" href="#">About Us</a>
-        </li>
-        <li class="nav-item p-4">
-          <a class="nav-link fs-3 text-white" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item dropdown p-4">
-          <a class="nav-link dropdown-toggle ms-4 fs-3 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Services
-          </a>
-          <ul class="dropdown-menu p-4 fs-3 text-white">
-            <li><a class="dropdown-item " href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <!--navbar-->
+    <nav>
+      <div class="navbar ">
+      <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#">🏦 OPERA RESIDENCY</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">OPERA RESIDENCY</span>
+            <i class='bx bx-x'></i> 
+          </div>
+          <ul class="links">
+            <li><a href="./home.html">HOME</a></li>
+            <li>
+              <a href="#">SERVICES</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="./hostel1.html">Hostel</a></li>
+                <li><a href="./room.html">Room</a></li>
+              </ul>
+          </li>
+            <li><a href="./about.html">ABOUT US</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+            <li><a href="./login.html">LOGIN</a></li>
           </ul>
-        </li>
-        <li class="nav-item p-4 ">
-          <a class="nav-link fs-3 text-white" href="#">Sing Up</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="background-image-container">
-        <div class="container">
-           <div class="row justify-content-center"> 
-          <div class="col-md-6">
-              <div class="card">
-                <div class="card-header"> 
-                <h1 class="card1"><b>Contact</b></h1> 
-                </div>
-               <div class="card-body"> 
-                  <form action="#">
-                    <div class="form-group">
-                      <label for="username">Firstname</label>
-                      <input type="text" class="form-control" id="" placeholder="">
-                    </div>
-                    <div class="form-group">
-                      <label for="Last Name">Last Name</label>
-                      <input type="text" class="form-control" id="" placeholder="">
-                    </div>
-                      <div class="form-group">
-                      <label for="Contact">Contact</label>
-                      <input type="Contact" class="form-control" id="" placeholder="">
-                    </div>
-                    <div class="form-group">
-                      <label for="E-mail">E-mail</label>
-                      <input type="Email" class="form-control" id="" placeholder="">
-                    </div>  
-                   <div class="form-group">
-                      <label for="Feedback">Feedback</label>
-                      <input type="text" class="form-control" id="Feedback" placeholder="">
-                    </div> 
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                  </form>
-                </div>
-              </div>
-            </div>
         </div>
-    </div>
-</div>
         
-    
-<!-- Hostel Map  -->
+      </div>
+    </nav>
+<!--contact conatainer-->
+<div class="background-image-container">
+      <div class="container">
+          <h2 class="text-white">Contact Us</h2>
+          <form action="#">
+            <div class="from-inputs"> 
+              <input type="text" name="first name" placeholder="Your Name" required class="form-input" style="text-align: center;">
+              <input type="text" name="Last name" placeholder="Your Phone Number" required  class="form-input" style="text-align: center;">
+              <input type="text" name="Contact" placeholder="E-mail" required  class="form-input" style="text-align: center;">
+              <input type="email" name="email" placeholder="Password" required  class="form-input" style="text-align: center;">
+              <input type="text" name="Feedback" placeholder="Feedback" required  class="form-input" style="text-align: center;">
+              <input type="submit" value="submit"><br><br>
+          </div>
+          </form>
+      </div>
+  </div>
+  
+
+
+
+
+
+
+
+ <!-- Hostel Map  -->
+ <h1 style="text-align: center;">We’re excited to hear from you...</h1>
  <div class="map d-flex justify-content-evenly" >
  <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.2676684589305!2d74.69046367472404!3d18.60702668250332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3430c10c4f649%3A0xc3e0bf73621cfd5c!2sWHITE%20HOUSE%20%26%20OPERA%20HOUSE%20-%20GIRLS%20HOSTEL!5e0!3m2!1sen!2sin!4v1708870552381!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                       <p><b>White House & Opera House,
-                        Tal-Shrigonda,
-                        Dist-A.nager,</b></p> 
-        </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3781.2618170521896!2d74.69050302435807!3d18.60729003250317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20opera%20shrigonda!5e0!3m2!1sen!2sin!4v1709392682164!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <i class="bi bi-geo-alt-fill"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+          </svg>
+                       <p><b>A/p-
+                        shrigonda,shivajinagar,
+                        Near by light saptetion.
+                        Shrigonda kasti road.
+                        Tal-shrigonda
+                        Dist-A.nagar.
+                        Pin- 413701,</b></p> 
+                        <i class="bi bi-telephone-fill"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                        <p>9552385225</p>
+  </div>
         <div class="map-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.2861142541838!2d74.69047467472406!3d18.606196482504046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc343001722caa3%3A0xfa469bfa2c55a6ce!2sMATOSHRI%20HOSTEL!5e0!3m2!1sen!2sin!4v1708874507753!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <p><b>Mathoshri Girls Hostel
+        <i class="bi bi-geo-alt-fill"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+        </svg>
+                      <p><b>Mathoshri Girls Hostel
                         Tal-Shrigonda,
-                        Dist-A.nager</b></p> 
-        </div>
+                        Dist-A.nager
+                        pincode-413701</b></p> 
+                        <i class="bi bi-telephone-fill"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                        <p>7499866651</p>
+  </div>
         <div class="map-container">
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.292297483909!2d74.69033277472396!3d18.605918182504304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc343092c7fbb53%3A0xf51bde444c6b1a0a!2sJijau%20girls%20hostel!5e0!3m2!1sen!2sin!4v1708874168381!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p><b>Jijao Girls Hostel
-                   Tal-Shrigonda,
-                   Dist-A.nager</b></p> 
-        </div>
+           <i class="bi bi-geo-alt-fill"></i>
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+           </svg>
+                        <p><b>Jijao Girls Hostel
+                        Tal-Shrigonda,
+                        Dist-A.nager
+                        pincode-413701</b></p > 
+                        <i class="bi bi-telephone-fill"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                        <p>9420936173</p>
+</div>
     </div>
 <!-- Room Rent -->
       <div class="map1 d-flex justify-content-evenly" >
       <div class="map-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.1861992933077!2d74.68716077472419!3d18.61069298250039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc343daecf32f1f%3A0x7161465348e2f02f!2sShivaji%20Nagar%20Shrigonda!5e0!3m2!1sen!2sin!4v1708877902803!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-                <p><b>Shivaji Nager
-                 Tal-Shrigonda,
-                Dist-A.nager,</b></p> 
-      </div>
+                <i class="bi bi-geo-alt-fill"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+                      <p><b>Shivaji Nager, Near by substation,
+                      Tal-Shrigonda,
+                      Dist-A.nager,
+                      pincode-413701</b></p> 
+                       <i class="bi bi-telephone-fill"></i>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                         <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                       </svg>
+                       <p>9320036193</p>
+
+</div>
       <div class="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.2748162432563!2d74.68759807472401!3d18.60670498250363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc343dc8066b459%3A0x64706f5cc9e818bc!2sJakate%20wasti!5e0!3m2!1sen!2sin!4v1708878914507!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
-            <p><b>Shrigonda Kashti Road
-                Tal-Shrigonda,
-                Dist-A.nager</b></p> 
-    </div>
+            <i class="bi bi-geo-alt-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <p><b>jakati wasati,
+              Shrigonda Kashti Road
+              Tal-Shrigonda,
+              Dist-A.nager
+              pincode-413701</b></p> 
+              <i class="bi bi-telephone-fill"></i>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                         <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                       </svg>
+                       <p>9390736193</p>
+</div>
     <div class="map-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7562.120246136282!2d74.6942555402033!3d18.616365329983314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc343d72ac0ca67%3A0xfd0eaf39041ffd1b!2z4KSs4KS-4KSy4KS-4KSc4KWAIOCkqOCkl-CksCDgpLbgpY3gpLDgpYDgpJfgpYvgpKbgpL4!5e0!3m2!1sen!2sin!4v1708878738053!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+        <i class="bi bi-geo-alt-fill"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+        </svg>
         <p><b>jamkhed daund Road 
-              Tal-Shrigonda,
-              Dist-A.nager</b></p> 
-             </div>
+            Tal-Shrigonda,
+            Dist-A.nager
+            pincode-413701</b></p> 
+            <i class="bi bi-telephone-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+            </svg>
+            <p>9390736993</p>
+  </div>
 </div>
-
-
 <!--footer-->
 <!--FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -205,12 +206,8 @@
 </div>
 </div>
 </footer>
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 crossorigin="anonymous"></script>
-
 </body>
 </html>
