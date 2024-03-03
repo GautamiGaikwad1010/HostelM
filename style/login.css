@@ -21,6 +21,7 @@ body {
   padding: 10% 0 0;
   margin-top: 400px;
 /* } */
+<<<<<<< HEAD
 .form {
   position: relative;
   z-index: 1;
@@ -30,6 +31,18 @@ body {
   margin-top: 310px;
   padding: 45px;
   text-align: center;
+=======
+.form{
+  
+ position: relative;
+z-index: 1;
+background:transparent;
+max-width: 360px;
+margin-left: 550px;
+margin-top: 310px;
+padding: 45px;
+text-align: center;
+>>>>>>> 9f91a612d9296c157459901926f1d225f0c29959
 }
 
 .form input {
