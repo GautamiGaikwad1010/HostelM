@@ -16,12 +16,12 @@ body {
   justify-content: center;
 }
 
-/* .login-page{
+.login-page{
   width: 450px;
   padding: 10% 0 0;
   margin-top: 400px;
-/* } */
-<<<<<<< HEAD
+} 
+
 .form {
   position: relative;
   z-index: 1;
@@ -31,7 +31,7 @@ body {
   margin-top: 310px;
   padding: 45px;
   text-align: center;
-=======
+
 .form{
   
  position: relative;
@@ -42,7 +42,7 @@ margin-left: 550px;
 margin-top: 310px;
 padding: 45px;
 text-align: center;
->>>>>>> 9f91a612d9296c157459901926f1d225f0c29959
+
 }
 
 .form input {
@@ -125,7 +125,7 @@ nav .navbar {
   align-items: center;
   justify-content: space-evenly;
   margin: auto;
-  /* background: red; */
+  /* background: red; 
   padding: 0 50px;
 }
 .navbar .logo a {
@@ -163,7 +163,7 @@ nav .navbar .links li a {
 }
 
 nav .navbar .links li .arrow {
-  /* background: red; */
+   background: red; 
   height: 100%;
   width: 22px;
   line-height: 70px;
