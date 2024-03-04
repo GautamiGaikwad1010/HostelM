@@ -1,21 +1,21 @@
-
- /* body css   */
+/* body css*/
  body {
   font-family: Arial, sans-serif;
   background-color: #f5f1f41c;
 }
+
+/* @media screen and(max-width:100px){
+  } */
+
 /* sign up container size */
 .container {
   max-width: 400px;
   margin: 50px auto;
-  /* margin-top: 320px; */
   height: 500px;
   padding: 20px;
-  /* background-color:rgba(165, 42, 42, 0.406);  */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
-}
+} 
 .form-inputs {
    background-color:transparent;
    border-radius: medium;
@@ -40,28 +40,37 @@ input[type="password"] {
   box-sizing: border-box;
 } 
 
-/* sign button */
+/* sign button & animation*/
 input[type="submit"] {
   width: 50%;
   margin-left: 290px;
-  background-color: transparent;
+  background-color: #4b545d;
   padding: 10px;
-  border: 3px solid rgb(226, 215, 215);
+  border: 3px solid rgb(245, 238, 238);
   border-style:groove;
   border-radius: 10px 10px;
   cursor: pointer;
+  animation-name: sample;
+  animation-duration:  1s;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate-reverse;
 } 
-/* sign up button hover effect */
+@keyframes sample{
+  from {border-radius:0%;}
+  to{border-radius:50%;}
+}
+
+  /* sign up button hover effect */
 input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: transparent; 
 } 
 /* first map */
-.map{
+ .map{
     justify-content: space-evenly;
     margin-right: 10px;
     margin-top: 100px;
     margin-left: 10px;
-} 
+ }
 .map1{
    margin-left: 10px;
    margin-top: 50px;
@@ -71,15 +80,15 @@ input[type="submit"]:hover {
   text-align: center;
   height: 500px;
   width: 400px;
-}
+} 
 /* background image */
   .background-image-container{
   background-image:linear-gradient(rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.8)),  url(./../images/hostel2.jpg);  
   opacity: 1;
   background-size: cover; 
   border-radius: 1px 2px;
-  height: 1200px; 
-  width: 1400px;
+  height: 900px; 
+  width: 100%;
 }
 /* footer css */
 footer p {
@@ -159,8 +168,40 @@ display: flex;
 flex-wrap: wrap;
 }
 }
+.card {
+  transition: 0.5s;
+  display: flex;
+  justify-content:space-around;
+/* color: red; */
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+ 
+}
+.card-img-top1{
+  height: 340px;
+  width: 900px;
+}
+.card-img-top2{
+  height: 340px;
+  width: 900px;
+}
+.font-change{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+
 /* nav bar css */
- body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
   min-height: 100vh;
 }
 nav{
@@ -258,7 +299,11 @@ nav .navbar .links li:hover .js-sub-menu{
   line-height: 40px;
 }
 .navbar .links li .htmlCss-more-sub-menu{
+
+  line-height: 40px; 
+
    line-height: 40px; 
+
 }
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
@@ -288,7 +333,6 @@ nav .navbar .links li:hover .js-sub-menu{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .navbar .nav-links .sidebar-logo{
   display: none;
 }
@@ -314,7 +358,11 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 @media (max-width:800px){
   nav{
+
+     position: relative;
+
      position: relative; 
+
   }
   .navbar .bx-menu{
     display: block;
@@ -426,33 +474,11 @@ nav .navbar .links li .sub-menu li{
 }
  .nav-link{
 font-size: 20px;
- }
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 

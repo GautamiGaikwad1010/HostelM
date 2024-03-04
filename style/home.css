@@ -288,7 +288,7 @@ nav .navbar .links li .sub-menu li{
   nav .navbar .links li:hover .js-sub-menu{
     display: none;
   }
-.navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
   .navbar .nav-links.show3 .links .js-sub-menu,
   .navbar .nav-links.show2 .links .more .more-sub-menu{
       display: block;
