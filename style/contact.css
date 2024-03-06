@@ -9,11 +9,11 @@
 
 /* sign up container size */
 .container {
-  max-width: 400px;
+  max-width: 300px;
   /* margin-top: 10px; */
   margin: 50px auto;
   height: 500px;
-  padding: 20px;
+  padding: 20px; 
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 } 
@@ -79,7 +79,7 @@ input[type="submit"]:hover {
 
 .map-container{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
   height: 500px;
   width: 400px;
 }  
@@ -485,9 +485,16 @@ font-size: 20px;
 } */
 
 
+/* .text-white{
+  animation: mymove 5s infinite;
 
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
 
-
+ */
 
   
 
