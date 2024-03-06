@@ -5,11 +5,12 @@
 }
 
 /* @media screen and(max-width:100px){
-  } */
+}  */
 
 /* sign up container size */
 .container {
   max-width: 400px;
+  /* margin-top: 10px; */
   margin: 50px auto;
   height: 500px;
   padding: 20px;
@@ -475,6 +476,13 @@ nav .navbar .links li .sub-menu li{
  .nav-link{
 font-size: 20px;
 }
+.text-white{
+  margin-top: 100px;
+}
+/* @keyframes simple{
+
+} */
+
 
 
 
