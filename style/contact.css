@@ -66,22 +66,23 @@ input[type="submit"]:hover {
   background-color: transparent; 
 } 
 /* first map */
- .map{
+ /* .map{
     justify-content: space-evenly;
     margin-right: 10px;
     margin-top: 100px;
     margin-left: 10px;
- }
-.map1{
+ } */
+/* .map1{
    margin-left: 10px;
    margin-top: 50px;
-}
+} */
 
 .map-container{
   text-align: center;
+  margin-top: 20px;
   height: 500px;
   width: 400px;
-} 
+}  
 /* background image */
   .background-image-container{
   background-image:linear-gradient(rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.8)),  url(./../images/hostel2.jpg);  
