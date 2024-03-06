@@ -388,7 +388,7 @@ body{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 20px;
     }
-    .grid{
+.grid{
         display: flex;
         justify-content: space-evenly;
         margin-top: auto;
@@ -407,9 +407,7 @@ body{
     margin: 30px;
     display: flex;
   }
-
-  
-  .card:hover {
+.card:hover {
     transform: scale(1.05);
   } 
   
